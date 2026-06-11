@@ -1,0 +1,12 @@
+{
+  "name": "web-clinica-sanna",
+  "version": "1.0.0",
+  "description": "Pagina web de la clinica",
+  "main": "web/principal.html",
+  "scripts": {
+    "start": "npx serve web -p $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
