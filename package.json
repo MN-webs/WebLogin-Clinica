@@ -4,7 +4,7 @@
   "description": "Pagina web de la clinica",
   "main": "web/principal.html",
   "scripts": {
-    "start": "npx serve web -p $PORT"
+    "start": "npx serve web -p $PORT --framework static"
   },
   "dependencies": {
     "serve": "^14.2.1"
